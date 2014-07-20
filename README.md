@@ -37,7 +37,7 @@ local app = utopia:new()
 
 app:use(favicon(__dirname .. '/public/favicon.ico'))
 
-http.createServer(app):listen(8080)
+app:listen(8080)
 ```
 
 ## License
