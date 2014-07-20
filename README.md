@@ -12,9 +12,19 @@ If you're not familiar with [npm](https://www.npmjs.org/) check this out:
 - https://github.com/voronianski/luvit-npm-example#how-to
 - https://github.com/luvitrocks/luvit-utopia#install
 
+## API
+
+### ``favicon(path, options)``
+
+Create new middleware to serve a favicon from the given path string to a favicon file.
+
+##### options
+
+- ``maxAge`` - cache-control max-age directive in ``ms``, defaulting to 1 day.
+
 ## Example
 
-This middleware will come very early in your stack (maybe even first) to avoid processing any other middleware if we already know the request is for /favicon.ico.
+This middleware will come very early in your stack (maybe even first) to avoid processing any other middleware if we already know the request is for ``/favicon.ico``.
 
 ### Utopia
 
