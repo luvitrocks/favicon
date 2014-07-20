@@ -36,7 +36,7 @@ function favicon (path, options)
 				}
 
 				res:writeHead(200, icon.headers)
-				res:finish(icon.body)
+				res:finish(buf)
 			end)
 		end
 	end
