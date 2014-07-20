@@ -31,7 +31,6 @@ This middleware will come very early in your stack (maybe even first) to avoid p
 ```lua
 local utopia = require('luvit-utopia')
 local favicon = require('luvit-favicon')
-local http = require('http')
 
 local app = utopia:new()
 
