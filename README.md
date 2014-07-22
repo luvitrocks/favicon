@@ -1,6 +1,6 @@
 # luvit-favicon
 
-Luvit.io middleware for serving favicon (typically used with [Utopia](https://github.com/luvitrocks/luvit-utopia)).
+[Luvit.io](http://luvit.io) middleware for serving favicon (typically used with [Utopia](https://github.com/luvitrocks/luvit-utopia)).
 
 ## Install
 
@@ -18,15 +18,13 @@ If you're not familiar with [npm](https://www.npmjs.org/) check this out:
 
 Create new middleware to serve a favicon from the given path string to a favicon file.
 
-##### options
+##### Options
 
 - ``maxAge`` - cache-control max-age directive in ``ms``, defaulting to 1 day.
 
 ## Example
 
 This middleware will come very early in your stack (maybe even first) to avoid processing any other middleware if we already know the request is for ``/favicon.ico``.
-
-### Utopia
 
 ```lua
 local utopia = require('luvit-utopia')

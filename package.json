@@ -1,27 +1,27 @@
 {
-  "name": "luvit-favicon",
-  "version": "0.0.1",
-  "description": "favicon serving luvit.io middleware with caching ",
-  "main": "init.lua",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com:luvitrocks/luvit-favicon.git"
-  },
-  "keywords": [
-    "luvit",
-    "utopia",
-    "lua",
-    "middleware",
-    "favicon",
-    "serve"
-  ],
-  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luvitrocks/luvit-favicon/issues"
-  },
-  "homepage": "https://github.com/luvitrocks/luvit-favicon"
+	"name": "luvit-favicon",
+	"version": "0.0.1",
+	"description": "favicon serving luvit.io middleware with caching",
+	"main": "init.lua",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com:luvitrocks/luvit-favicon.git"
+	},
+	"keywords": [
+		"luvit",
+		"utopia",
+		"lua",
+		"middleware",
+		"favicon",
+		"serve"
+	],
+	"author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/luvitrocks/luvit-favicon/issues"
+	},
+	"homepage": "https://github.com/luvitrocks/luvit-favicon"
 }
