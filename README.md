@@ -1,4 +1,4 @@
-# luvit-favicon
+# favicon
 
 > [Luvit.io](http://luvit.io) middleware for serving favicon icon (typically used with [Utopia](https://github.com/luvitrocks/luvit-utopia) server framework).
 
