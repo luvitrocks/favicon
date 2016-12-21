@@ -7,7 +7,7 @@ function favicon (path, options)
   if not options then options = {} end
 
   path = path or __dirname .. '/favicon.ico'
-  maxAge = options.maxAge or 86400000
+  maxAge = options.maxAge or (1000 * 60 * 60 * 24) -- 1 day
 
   return function (req, res, follow)
     if ('/favicon.ico' ~= req.url) then
