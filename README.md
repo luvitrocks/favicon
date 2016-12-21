@@ -16,7 +16,7 @@ Create new middleware to serve a favicon from the given path string to a favicon
 
 ##### Options
 
-- ``maxAge`` - cache-control max-age directive in ``ms``, defaulting to 1 day.
+- ``maxAge`` - cache-control max-age directive in ``ms``, defaulting to 1 year.
 
 ## Example
 
